@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+<h1>Preencha o formulário:</h1>
+
+<form action="index.html" method="post">
+
+    <label for="user">Nome do usuário:</label>
+    <input type="text" name="username" id="user" minlength="5" maxlength="50" required>
+
+    <label for="birthday">Data de nascimento:</label>
+    <input type="date" name="birthday" id="birthday" required>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
+
+    <label for="password">Senha:</label>
+    <input type="password" id="password" minlength="8" required>
+
+    <input type="reset" class="button">
+    <input type="submit" class="button">
+</form>
+</body>
+</html>

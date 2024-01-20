@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMBINATORS</title>
+    <style>
+        #container {
+            border: 5px solid black;
+        }
+        #container p { /* descendente*/
+            background-color: hsla(60, 94%, 68%, 0.597);
+        }
+        #container > p { /* filho */
+            color: rgb(162, 4, 4);
+            }
+        #container ~ p { /* irmão geral */
+            background-color: blue;
+            font-size: large;
+        }
+        #container + p { /* irmão adjacente */
+            color: white
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <p>Primeiro</p>
+        <p>Segundo</p>
+        <div><p>Terceiro</p></div>
+    </div>
+        <p>Quarto</p>
+        <p>Quinto</p>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elements</title>
+    <style>
+        body {
+            background-color: #252525;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+
+        h1::before, h1::after {
+            content: '\2728';
+        } /*Adiciona algo antes e depois de um texto*/
+        p::first-letter {
+            font-size: 2em;
+        } /*Mexe na primeira letra de um texto*/
+        p::first-line {
+            color: #ff6f00;
+        }
+        ::marker{
+            color: #ff6f00;
+            font-size: 30px;
+        } /*Modifica o marcador de por exemplo das tag <ol> e <ul>*/
+        ::selection {
+            background-color: #0042e8;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bem vindo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non amet illo quibusdam dignissimos expedita? Accusantium vero omnis ducimus maiores eum voluptatem quia harum animi optio. Sint error temporibus commodi, ad, maxime quas sequi autem soluta a esse quis et? Eveniet minus inventore sunt, fugiat quam blanditiis quisquam fugit repellat vel.</p>
+    <ul>
+        <li>Primeiro</li>
+        <li>Segundo</li>
+        <li>Terceiro</li>
+        <li>Quarto</li>
+        <li>Quinto</li>
+    </ul>
+</body>
+</html>

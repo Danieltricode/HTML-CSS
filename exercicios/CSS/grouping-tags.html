@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GROUPING-TAGS</title>
+    <style>
+        body {
+            background-color: #003495;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 15px;
+        }
+
+        header {
+            padding-top: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+        }
+        nav {
+            background-color: #8bb7f9;
+            box-shadow: 5px 3px 7px 1px #00000084;
+        }
+        #principal {
+            background-color: #00096c;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            padding-left: 10px;
+            box-shadow: inset 3px 4px 5px #00000090;
+        }
+
+        a {
+            margin: 10px;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            text-align: justify;
+            padding: 3px;
+            border-radius: 10px;
+            margin: 10px;
+            box-shadow: 3px 3px 5px #00000083;
+        }
+
+        footer {
+            background-color: #01074d;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            box-shadow: inset 5px 4px 5px #00000090;
+        }
+        footer > p {
+            margin: 0px;
+        }
+
+        h2 {
+            background-color: #0d16c0;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            box-shadow: inset 5px 4px 5px #00000090;
+        }
+        article {
+            background-color: #fdecec;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        p.escritor {
+            background-color: #003495;
+            color: white;
+            box-shadow: inset 5px 4px 5px #00000090;
+        }
+        article > p.texto::first-letter {
+            font-size: 30px;
+        }
+
+       div#ball {
+            display: none;
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 20px auto;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+ <header>
+    <h2 id="principal">Aprendendo história</h2>
+    <nav>
+    <a href="#">link 1</a>
+    <a href="#">link 3</a>
+    <a href="#">link 4</a>
+    <a href="#">link 5</a>
+    </nav>
+ </header>
+ <main>
+<section id="artigo">
+    <h2>O segredo na história do Brasil</h2>
+    <p class="escritor">Escrito pelo historiador fulano</p>
+    <article>
+        <p class="texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, nihil! Omnis iure nam quibusdam quidem accusamus sed vero maiores aliquid doloribus dolores dicta voluptatum maxime perspiciatis impedit labore molestias suscipit voluptate voluptates, pariatur consequatur in ipsum odit. A consequuntur itaque, culpa voluptatem perferendis fugiat similique fuga quam ab voluptate voluptatibus sequi modi non commodi blanditiis repellendus. Omnis repellendus quod, vel, cupiditate adipisci nihil beatae maxime maiores sunt hic molestiae sit cumque. Dolorem aperiam, pariatur nobis harum autem ea recusandae neque necessitatibus, distinctio sit ipsum beatae. Praesentium, mollitia tenetur? Architecto illum cum accusantium veritatis molestias fugit aperiam impedit quae ad iusto!
+        </p>
+    </article>
+</section>
+ </main>  
+ <footer>
+    <p>Este site foi desenvolvido por Daniel<p>
+ </footer>
+ <div id="ball"></div>
+</body>
+</html>
