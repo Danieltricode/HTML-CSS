@@ -1,0 +1,23 @@
+@charset UTF-8;
+
+.pagina{
+    background-color: #383c4a;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.pagina a {
+    color: #ff6f00;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.pagina a.ativo {
+    background-color: #0042e8;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.pagina a:hover:not(.ativo) {
+    background-color: #252525;
+    border-radius: 5px;
+}
