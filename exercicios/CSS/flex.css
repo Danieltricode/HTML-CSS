@@ -1,0 +1,41 @@
+@charset UTF-8;
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+    flex-direction: row; /* row-reverse; column; column-reverse; */
+    justify-content: space-evenly; /* center; space-between space-around space-evenly */
+    align-items: center; /* flex-start flex-end baseline(muda direção de acordo com tamanho da letra); */
+    /* flex-wrap: wrap nowrap; 
+       align-content: flex-start;
+       gap: 1em;*/
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 10px;
+}
+#box1{
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+    /* flex-basis: 0; */
+    /* flex: 1; */
+    /* order: -1 1; */
+    align-self: flex-start;
+    background-color: #fd3838;
+    border: 10px solid red;
+}
+#box2{
+    background-color: #ffff40;
+    border: 10px solid yellow;
+}
+#box3{
+    background-color: #40fe40;
+    border: 10px solid green;
+}
+#box4{
+    background-color: #2929ff;
+    border: 10px solid blue;
+}
