@@ -1,0 +1,13 @@
+@charset UTF-8;
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 1.8rem;
+        color: red;
+    }
+    div.box {
+        width: 80px;
+        height: 80px;
+        border-radius: 0;
+    }
+}
