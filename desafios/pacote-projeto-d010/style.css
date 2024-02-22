@@ -75,7 +75,7 @@ main a {
 main a::after {
     content: "\1F517\0020";
 }
-a:hover {
+header > a:hover, main > a:hover {
     background-color: var(--cor2);
     color: var(--cor4);
     border-radius: 5px;
