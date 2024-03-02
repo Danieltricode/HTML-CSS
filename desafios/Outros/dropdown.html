@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+    <style>
+        .dropdown {
+            display: inline-block;
+        }
+        .dropdown button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+        .dropdown img {
+            width: 50px;
+        }
+        .dropdown a {
+            display: block;
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .dropdown a:hover {
+            background-color: aliceblue;
+            color: #030186;
+        }
+        .dropdown .content {
+            display: none;
+            position: absolute;
+            background-color: #6b6b6b;
+            border-radius: 10px;
+            padding: 10px;
+            min-width: 100px;
+            box-shadow: 2px 2px 5px #000000bb;
+        }
+        .dropdown:hover .content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <button><img src="https://cdn-icons-png.flaticon.com/512/1828/1828850.png" alt="menu"></button>
+        <div class="content">
+            <a href="#">Início</a>
+            <a href="#">Contato</a>
+            <a href="#">Cadastar-se</a>
+        </div>
+    </div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum eligendi soluta sequi corrupti, perferendis obcaecati corporis beatae nesciunt nobis aut deleniti excepturi animi esse minus similique, quidem incidunt deserunt. Delectus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus tempore beatae repellat voluptate recusandae minima aperiam vel sunt nobis ipsum.</p>
+</body>
+</html>
