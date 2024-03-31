@@ -12,13 +12,13 @@
         <thead> <!-- Cabeçalho -->
             <th scope="col">Grupo</th>
             <th scope="col">Nomes</th>
-            <th scope="col" colspan="3">Filmes</th>
+            <th scope="colgroup" colspan="3">Filmes</th>
         </thead>
         <tbody>
             <tr> <!-- Mulheres -->
-                <td rowspan="3">Mulheres</td>
+                <th scope="rowgroup" rowspan="3">Mulheres</th>
                 <td>Ana Maria Santos</td>
-                <td>Super Mario Bros</td>
+                <td>Super Man</td>
                 <td>Vingadores</td>
                 <td>Wall-E</td>
             </tr>
@@ -36,7 +36,7 @@
             </tr>
 
             <tr> <!-- Homens -->
-                <td rowspan="3">Homens</td>
+                <th scope="rowgroup" rowspan="3">Homens</th>
                 <td>Bruno Mendonça</td>
                 <td>300</td>
                 <td>Rambo</td>
@@ -55,6 +55,12 @@
                 <td>Os Incríveis</td>
             </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="4">Total</th>
+                <td>100</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>

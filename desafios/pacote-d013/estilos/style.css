@@ -11,7 +11,7 @@ th {
 }
 th, tr, td {
     width: 150px;
-    border: 3px solid;
+    border: 2px solid;
     padding: 10px;
     text-align: center;
 }
