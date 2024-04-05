@@ -3,27 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio da tabela</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Exercício de tabela</title>
     <link rel="stylesheet" href="estilos/style.css">
     <style>
-        th {
-            background-color: gray;
-            border: 2px solid black;
+        .cnome {
+            background-color: chartreuse;
             color: white;
+        }
+        .cgrupo {
+            background-color: yellow;
         }
     </style>
 </head>
 <body>
     <table>
-        <thead>
-            <th scope="col" rowspan="2">Área</th>
-            <th scope="col" rowspan="2">Disciplina</th>
-            <th scope="colgroup">Notas</th>
-            <th scope="col">Nota 1</th>
-            <th scope="col">Nota 2</th>
-            <th scope="col" rowspan="2">Média</th>
-        </thead>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="3">
+        </colgroup>
+        <tr>
+             <th scope="col">Nome</th>
+             <th scope="col">Sexo</th>
+             <th scope="col">Idade</th>
+             <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Carlos Alberto</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>claúdio</td>
+            <td>M</td>
+            <td>18</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>F</td>
+            <td>24</td>
+            <td>Médica</td>
+        </tr>
     </table>
 </body>
 </html>
