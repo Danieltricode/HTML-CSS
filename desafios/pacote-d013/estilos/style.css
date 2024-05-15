@@ -13,5 +13,8 @@ th, tr, td {
     width: 150px;
     border: 2px solid;
     padding: 10px;
+}
+
+th {
     text-align: center;
 }
