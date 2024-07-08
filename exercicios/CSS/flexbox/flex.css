@@ -5,7 +5,7 @@
     height: 90vh;
     flex-direction: row; /* row-reverse; column; column-reverse; */
     justify-content: space-evenly; /* center; space-between space-around space-evenly */
-    align-items: center; /* flex-start flex-end baseline(muda direção de acordo com tamanho da letra); */
+    align-items: center; /* flex-start flex-end baseline(direção de acordo com  a linha de texto); */
     /* flex-wrap: wrap nowrap; 
        align-content: flex-start;
        gap: 1em;*/
