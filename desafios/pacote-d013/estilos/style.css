@@ -1,20 +1,6 @@
 @charset UTF-8;
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-table {
-    border-collapse: collapse;
-}
-th {
-    text-align: center;
-}
-th, tr, td {
-    width: 150px;
-    border: 2px solid;
-    padding: 10px;
-}
-
-th {
-    text-align: center;
+    background-image: url('../pacote-d013/imagens/fundo-madeira.jpg');
+    background-position: center center;
 }
