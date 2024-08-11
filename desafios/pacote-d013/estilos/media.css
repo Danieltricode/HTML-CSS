@@ -1,0 +1,7 @@
+@media (max-width: 650px) {
+    section#redes-sociais {
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+}
