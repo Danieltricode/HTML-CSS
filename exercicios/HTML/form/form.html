@@ -8,22 +8,30 @@
 <body>
 <h1>Preencha o formulário:</h1>
 
-<form action="#" method="post">
+<form action="cadastro.php" method="post" autocomplete="on">
 
-    <label for="user">Nome do usuário:</label>
-    <input type="text" name="username" id="user" minlength="5" maxlength="50" required>
+    <div>
+        <label for="user">Nome do usuário:</label>
+        <input type="text" name="username" id="user" minlength="5" maxlength="50" required placeholder="Mínimo 5 caracteres" autocomplete="username">
+    </div>
 
-    <label for="birthday">Data de nascimento:</label>
-    <input type="date" name="birthday" id="birthday" required>
+    <div>
+        <label for="birthday">Data de nascimento:</label>
+        <input type="date" name="birthday" id="birthday" required autocomplete="bday">
+    </div>
 
-    <label for="email">Email:</label>
-    <input type="email" name="email" id="email" required>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required placeholder="Escreva o seu email" autocomplete="email">
+    </div>
 
-    <label for="password">Senha:</label>
-    <input type="password" id="password" minlength="8" required>
+    <div>
+        <label for="password">Senha:</label>
+        <input type="password" id="password" minlength="8" maxlength="20" required placeholder="Mínimo 8 caracteres" plaautocomplete="current-password">
+    </div>
 
+    <input type="submit" class="button" value="Cadastrar">
     <input type="reset" class="button">
-    <input type="submit" class="button">
 </form>
 </body>
 </html>
