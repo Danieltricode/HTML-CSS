@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@media (max-width: 900px) {
+    h1 {
+        text-align: center;
+    }
+    p {
+        padding: 0 10px;
+    }
+}
